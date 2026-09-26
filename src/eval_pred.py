@@ -5,10 +5,9 @@ from sklearn.metrics import (
     roc_auc_score, average_precision_score, matthews_corrcoef,
 )
 # Load global project configurations
-from config import root_dir, resolution, display_reso
+from config import root_dir, resolution, display_reso, SEED
 
 cell = "GM12878"
-SEED = 42  # 5 sets of random seeds:42,43,44,45,46
 
 # Module switches
 use_epi = True            # Epigenetic features
