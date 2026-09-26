@@ -38,8 +38,6 @@ file_list = [
     ("chr22", f"{root_dir}/{cell}/{display_reso}kb/prediction_result/{model_use}/{display_reso}kb_{cell}_chr22-pred.npy"),
 ]
 
-all_y_true = []
-all_y_prob = []
 chr_prf1 = []
 chr_auprc = []
 chr_mcc = []
@@ -54,9 +52,6 @@ for chr_name, path in file_list:
 
     chr_total_bins = arr.shape[0]
     all_total_bins += chr_total_bins
-
-    all_y_true.extend(y_true)
-    all_y_prob.extend(y_prob)
 
     p = precision_score(y_true, y_pred, pos_label=1)
     r = recall_score(y_true, y_pred, pos_label=1)
