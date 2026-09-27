@@ -1,5 +1,4 @@
 import os
-# os.environ["CUDA_VISIBLE_DEVICES"] = "2"  # Uncomment and set GPU ID if needed
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'        # Reduce TensorFlow log messages
 os.environ["TF_DETERMINISTIC_OPS"] = "1"        # Enable deterministic operations for reproducibility
 os.environ["TF_CUDNN_DETERMINISTIC"] = "1"      # Fix cudnn randomness for reproducibility
