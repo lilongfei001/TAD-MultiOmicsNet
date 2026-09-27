@@ -1,3 +1,7 @@
+# Environment & Path Configuration
+- The variable `root_dir` is defined at the top of each script file.
+- Please update `root_dir` to your local project path before running any code.
+
 ## Usage
 ### 1. Training
 - Modify ablation switches in `src/cfg.py` first, then run the training script: `src/model_train.py`
