@@ -1,5 +1,6 @@
 # Environment & Path Configuration
 - The variable `root_dir` is defined at the top of each script file.
+- The default `root_dir` is a WSL path.
 - Please update `root_dir` to your local project path before running any code.
 
 ## Usage
