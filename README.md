@@ -8,3 +8,4 @@
 - matplotlib: 3.5.3
 - seaborn: 0.11.1
 
+This model can run on CPU, GPU is not mandatory.
