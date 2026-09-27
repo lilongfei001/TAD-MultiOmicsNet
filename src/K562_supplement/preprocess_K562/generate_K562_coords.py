@@ -5,6 +5,7 @@ import pandas as pd
 cell = "K562"
 resolution = 10000    # Hi-C resolution (bp): 10000(10kb), 25000(25kb)
 display_reso = int(resolution / 1000)
+# Update this root_dir to your own project path before running
 root_dir = "/mnt/d/TAD-MultiOmicsNet"
 
 bin_size = resolution
