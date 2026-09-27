@@ -9,3 +9,5 @@
 - seaborn: 0.11.1
 
 This model can run on CPU, GPU is not mandatory.
+
+> Detailed usage of all scripts can be found in [`src/README_src.md`](src/README_src.md).
