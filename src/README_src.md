@@ -12,6 +12,7 @@ Scripts in `src/preprocess/` generate multi-omics input data, including Hi-C mat
 
 ### 4. Analysis & Supplementary
 - `src/alpha_analysis/`: Visualization of adaptive fusion weights
+- `src/meta_profile_analysis/`: Meta-profile epigenetic enrichment analysis
 - `src/K562_supplement/`: K562 cell line supplementary experiments, including K562 multi-omics data preprocessing.
 
 ### Ablation Configuration (src/cfg.py)
