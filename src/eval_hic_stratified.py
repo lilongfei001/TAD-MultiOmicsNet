@@ -7,7 +7,7 @@ from sklearn.metrics import (
 
 cell = "GM12878"
 resolution = 10000    # Hi-C resolution (bp): 10000(10kb), 25000(25kb)
-display_reso = int(resolution // 1000)
+display_reso = int(resolution / 1000)
 root_dir = "/mnt/d/TAD-MultiOmicsNet"
 
 FIX_THRESH = 0.5
