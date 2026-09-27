@@ -10,6 +10,7 @@ from model_debug_alpha import init_model_alpha, fun
 cell = "GM12878"
 resolution = 10000    # Hi-C resolution (bp): 10000(10kb), 25000(25kb)
 display_reso = int(resolution / 1000)
+# Update this root_dir to your own project path before running
 root_dir = "/mnt/d/TAD-MultiOmicsNet"
 SEEDS = [42, 43, 44, 45, 46]
 test_chroms = ["chr20", "chr21", "chr22", "chrX"]
