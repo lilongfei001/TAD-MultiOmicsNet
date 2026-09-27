@@ -5,6 +5,7 @@ import os
 cell = "GM12878"
 resolution = 10000
 display_reso = int(resolution / 1000)
+# Update this root_dir to your own project path before running
 root_dir = "/mnt/d/TAD-MultiOmicsNet"
 
 alpha_dir = f"{root_dir}/{cell}/alpha"
