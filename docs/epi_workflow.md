@@ -1,7 +1,7 @@
 # Epigenomic signal aggregation Workflow
 - Tool: deepTools
 - Version: 3.5.6
-- Repo: https://github.com/deeptools/deeptools
+- Repo: https://github.com/deeptools/deepTools
 
 ```bash
 # CTCF, H3k4me3, H3k27ac, H3k27me3
