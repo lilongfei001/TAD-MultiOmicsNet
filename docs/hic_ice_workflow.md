@@ -1,7 +1,7 @@
 # Hi‑C ICE Workflow
-Tool: hictk
-Version: v2.2.0
-Repo: https://github.com/paulsengroup/hictk
+- Tool: hictk
+- Version: v2.2.0
+- Repo: https://github.com/paulsengroup/hictk
 
 ```bash
 # hic → cool
