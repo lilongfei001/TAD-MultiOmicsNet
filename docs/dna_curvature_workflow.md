@@ -11,6 +11,7 @@ conda install pip setuptools
 python -m pip install dnacurve pyfaidx numpy matplotlib
 
 
+```bash
 Note:
 Input: hg19 reference genome FASTA, all_1kb_bins.bed (1kb equal-width bins generated from UCSC hg19 chrom.sizes).
 Output CSV: columns chr, start, end, curv_mean, mean DNA curvature per bin.
