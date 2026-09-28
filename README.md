@@ -10,5 +10,5 @@
 
 This model can run on CPU, GPU is not mandatory.
 
--> Detailed usage of all scripts can be found in `src/README_src.md`.
--> Detailed preprocessing workflows for each feature are available in the docs/ folder.
+> Detailed usage of all scripts can be found in `src/README_src.md`.\n
+> Detailed preprocessing workflows for each feature are available in the `docs/` folder.
