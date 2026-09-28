@@ -9,9 +9,9 @@ conda create -n dnacurve_env python=3.13
 conda activate dnacurve_env
 conda install pip setuptools
 python -m pip install dnacurve pyfaidx numpy matplotlib
-bash```
 
-Note:
+
+# Note:
 Input: hg19 reference genome FASTA, all_1kb_bins.bed (1kb equal-width bins generated from UCSC hg19 chrom.sizes).
 Output CSV: columns chr, start, end, curv_mean, mean DNA curvature per bin.
 Built-in resume function: can continue interrupted computation from last saved record.
