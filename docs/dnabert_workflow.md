@@ -15,6 +15,7 @@ pip install transformers==4.29.2 biopython psutil einops==0.6.1 -i https://pypi.
 # Note:
 - Input: genome_1kb.fasta (1kb-binned genome sequence), pre-trained DNABERT1 model weights.
 - genome_1kb.fasta: The genome is split into non-overlapping 1kb bins according to Hi-C bin boundaries. Each fasta record corresponds to the DNA sequence within one 1kb genomic bin.
+- bedtools getfasta -fi hg19.fa -bed all_1kb_bins.bed -fo genome_1kb.fasta
 - Output: Block-wise saved .npy embeddings for each chromosome, plus merged global 1kb base feature matrices.
 - SAVE_1KB_BASE stores genome-wide sorted 1kb DNABERT embeddings for each chromosome, merged from chunked intermediate block outputs, for convenient loading in subsequent model training and inference.
 - Sliding window: 400bp window, 200bp stride; embedding averaged across windows within each bin.
