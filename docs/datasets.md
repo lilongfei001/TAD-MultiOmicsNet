@@ -23,4 +23,3 @@ Hi‑C data were obtained from GEO accession **GSE63525**.
 | — | hg19 reference genome | https://hgdownload.soe.ucsc.edu/goldenPath/hg19/bigZips/latest/hg19.fa.gz |
 | — | hg19 chrom.sizes | https://hgdownload.soe.ucsc.edu/goldenPath/hg19/bigZips/latest/hg19.chrom.sizes |
 
-> Note: Some original ENCODE file links use `http`. If connection fails, try replacing `http://` with `https://`.
