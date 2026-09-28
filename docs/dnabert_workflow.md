@@ -5,7 +5,7 @@
 - Package versions: torch==2.0.0, transformers==4.29.2, biopython, psutil, einops==0.6.1, numpy
 
 ## DNABERT1 model
-DNABERT1 pre-trained weights: https://github.com/jerryji1993/DNABERT
+DNABERT1 pre-trained weights: https://huggingface.co/zhihan1996/DNA_bert_6/tree/main
 
 ## Install dependencies (AutoDL example)
 ```bash
