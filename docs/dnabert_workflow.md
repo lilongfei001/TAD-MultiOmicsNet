@@ -1,8 +1,8 @@
 # DNABERT feature extraction Workflow
 - Script path: docs/dnabert_extract_feat.py
-- ⚠️ Environment note: This script requires a **separate Python environment**, different from the model training environment. GPU is required for efficient inference.
-- Tested on AutoDL: PyTorch 2.0.0 + Python 3.8 + CUDA 11.8
-- Package versions: torch==2.0.0, transformers==4.29.2, biopython, psutil, einops==0.6.1, numpy
+- ⚠️ Environment note: This script runs in a separate Python environment, independent of the model training environment. A GPU is recommended for efficient inference.
+- Tested environment (AutoDL): PyTorch 2.0.0 + Python 3.8 + CUDA 11.8
+- Dependencies: torch==2.0.0, transformers==4.29.2, biopython, psutil, einops==0.6.1, numpy
 
 ## DNABERT1 model
 DNABERT1 pre-trained weights: https://huggingface.co/zhihan1996/DNA_bert_6/tree/main
