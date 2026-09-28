@@ -12,3 +12,4 @@ This model can run on CPU, GPU is not mandatory.
 
 > Detailed usage of model-related scripts can be found in `src/README_src.md`. Workflow documentation and standalone feature-generation scripts are available in the `docs/` folder.
 
+Dataset download URLs are available in `docs/datasets.md`.
