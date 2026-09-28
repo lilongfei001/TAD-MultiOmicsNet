@@ -9,7 +9,7 @@ conda create -n dnacurve_env python=3.13
 conda activate dnacurve_env
 conda install pip setuptools
 python -m pip install dnacurve pyfaidx numpy matplotlib
-
+**```**
 
 # Note:
 Input: hg19 reference genome FASTA, all_1kb_bins.bed (1kb equal-width bins generated from UCSC hg19 chrom.sizes).
