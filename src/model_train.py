@@ -123,7 +123,7 @@ if __name__ == '__main__':
         print(f"dna_val_feat shape: {dna_val_feat.shape}, mask shape:{dna_val_mask.shape}")
 
     if use_curv:
-        print("===== training set: DNA curvature features =====")
+        print("===== validation set: DNA curvature features =====")
         curv_val_feat = np.load(
             f"{root_dir}/{cell}/{display_reso}kb/samples-generate/validation/curv{cell}_validation_feat100.npy").astype("float32")
         curv_val_mask = np.load(
