@@ -8,6 +8,7 @@
 ## Example Command
 ```bash
 cooltools random-sample -f 0.5 -p 1 GM12878_10kbraw.cool sample_50pct_r1_10kb.cool
+```
 
 Command breakdown:
 - GM12878_10kbraw.cool: Input raw-count Hi-C contact matrix at 10 kb resolution
