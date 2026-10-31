@@ -18,4 +18,4 @@ Command breakdown:
   - 50pct: Sampling fraction (50%)
   - r1: Replicate number 1 (r stands for replicate)
   - 10kb: Matrix resolution
-Four downsampling fractions are used in this experiment: 0.1, 0.25, 0.5, 0.75, with 3 independent replicates for each fraction.
+- Four downsampling fractions are used in this experiment: 0.1, 0.25, 0.5, 0.75, with 3 independent replicates for each fraction.
